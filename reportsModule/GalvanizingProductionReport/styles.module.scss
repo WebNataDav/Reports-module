@@ -1,0 +1,44 @@
+@use '@styles/reusableStyles.module.scss';
+
+.reportsWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap-standard);
+  padding-top: 20px;
+}
+
+.reportsTabWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap-standard);
+  padding: 20px;
+}
+
+.chip {
+  height: 24px;
+  width: fit-content;
+  border: 1px solid;
+  line-height: 16px;
+  vertical-align: middle;
+  background-color: var(--overdue-alternative-background);
+  border-color: var(--overdue-alternative);
+  color: var(--overdue-alternative);
+}
+
+.scrollWrapper {
+  overflow-x: auto;
+  width: 100%;
+}
+
+.costBreakdownHeader {
+  padding: 0;
+  border-left: 1px solid var(--divider);
+}
+
+.costBreakdownHeader :global(.MuiDataGrid-columnHeaderTitleContainer) {
+  justify-content: center;
+  width: 100%;
+}
+.galvanizinColumn {
+  border-left: 1px solid var(--divider);
+}

@@ -1,0 +1,6 @@
+@use '@components/ui/reportsModule/GalvanizingProductionReport/styles.module.scss' as *;
+@use '@styles/reusableStyles.module.scss';
+
+.stickyDateCreated {
+  left: 150px;
+}

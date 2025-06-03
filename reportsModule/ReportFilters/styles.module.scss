@@ -1,0 +1,42 @@
+.filterWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 20px 0;
+}
+
+.searchWrapper {
+  display: flex;
+  gap: 10px;
+}
+
+.filter {
+  width: 300px;
+
+  :global(.MuiInputBase-root) {
+    min-height: 59px;
+  }
+
+  :global(.MuiSelect-select) {
+    padding: 16px;
+  }
+}
+
+.pickerWrapper {
+  display: flex;
+  gap: 10px;
+}
+
+.searchField {
+  > div {
+    padding: 16px;
+  }
+}
+
+.dateFilter {
+  max-width: 185px;
+
+  > div {
+    height: 59px;
+  }
+}
